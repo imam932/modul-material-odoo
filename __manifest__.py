@@ -12,13 +12,14 @@
     'author': "Imam Nawawi",
     'website': "https://www.yourdomaincompany.com",
     'data': [
+        'security/ir.model.access.csv',
         'views/material.xml',
         'views/templates.xml',
     ],
     'depends': ['base'],
     'installable': True,
+    'application': True,
     'demo': [
         'demo/demo.xml',
-    ],
-    'license': 'LGPL-3',
+    ]
 }
